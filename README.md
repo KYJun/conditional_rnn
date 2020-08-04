@@ -10,12 +10,18 @@ word-based RNN with tag embeddings for data augmentation
 - RNN Input : Word-based Pattern embedding + Tag Embedding (train) / start token + tag embedding (inference)
 - Pattern : Sentence split by words, start and end token inserted
 - Tag (Intention) : Sentence theme or information, guide word choice for sentence generation
-- example : <STR>/<intention> <word1>/<intention> <word2>/<intention> <END>/<intention>
-<br>
+
+```
+# type
+<STR>/<intention> <word1>/<intention> <word2>/<intention> <END>/<intention>
+
+# example
+<STR>/make_call call/make_call steve/make_call <END>/make_call
+```
+
 - RNN 입력값 : 단어 단위 패턴 문장 + 태그 임베딩 벡터 (훈련시) / 시작 토큰 + 태그 임베딩 벡터 (인퍼런스)
 - 패턴 문장 : 단어 단위 분절, 문장 시작과 끝에 토큰 삽입 
 - 태그 (의도) : 문장 주제 혹은 기능, 단어 선택 가이드 역할 수행 
-- 예시 : <STR>/<intention> <word1>/<intention> <word2>/<intention> <END>/<intention>
 
 ## Prerequisites
 ```
