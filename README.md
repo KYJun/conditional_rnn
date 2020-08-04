@@ -20,7 +20,7 @@ word-based RNN with tag embeddings for data augmentation
 ## Prerequisites
 ```
 python = 3.6
-tensorflow == 1.14.0
+tensorflow == 1.15.2
 pip install -r requirements.txt
 ```
 
