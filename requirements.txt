@@ -11,7 +11,7 @@ Keras-Preprocessing==1.1.2
 Markdown==3.2.2
 numpy==1.18.5
 opt-einsum==3.3.0
-protobuf==3.12.4
+protobuf==3.18.3
 six==1.15.0
 tensorboard==1.15.0
 tensorflow==1.15.4
